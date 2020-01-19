@@ -499,5 +499,31 @@
     "production": "20th Century Fox",
     "website": "N/A",
     "response": true
+  },
+  {
+    "title": "Joker",
+    "rear": "2019",
+    "rated": "R",
+    "released": "04 Oct 2019",
+    "runtime": "122 min",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "director": "Todd Phillips",
+    "writer": ["Todd Phillips", "Scott Silver", "Bob Kane", "Bill Finger", "Jerry Robinson"],
+    "actors": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz", "Frances Conroy"],
+    "plot": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+    "language": "English",
+    "country": ["Canada", "USA"],
+    "awards": "Won 2 Golden Globes. Another 27 wins & 129 nominations.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "metascore": "59",
+    "imdbRating": "8.6",
+    "imdbVotes": "593,943",
+    "imdbID": "tt7286456",
+    "type": "movie",
+    "dvd": "17 Dec 2019",
+    "boxOffice": "N/A",
+    "production": "Warner Bros. Pictures",
+    "website": "N/A",
+    "response": "True"
   }
 ]

@@ -8,7 +8,7 @@ const bodyParser = require('body-parser')
 
 app.use(bodyParser.json());
 
-app.use('/', routes);
-
 console.log("listening")
 app.listen(5000);
+
+app.use('/', routes);

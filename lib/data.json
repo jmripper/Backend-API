@@ -508,8 +508,19 @@
     "runtime": "122 min",
     "genre": ["Crime", "Drama", "Thriller"],
     "director": "Todd Phillips",
-    "writer": ["Todd Phillips", "Scott Silver", "Bob Kane", "Bill Finger", "Jerry Robinson"],
-    "actors": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz", "Frances Conroy"],
+    "writer": [
+      "Todd Phillips",
+      "Scott Silver",
+      "Bob Kane",
+      "Bill Finger",
+      "Jerry Robinson"
+    ],
+    "actors": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz",
+      "Frances Conroy"
+    ],
     "plot": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
     "language": "English",
     "country": ["Canada", "USA"],
@@ -524,6 +535,6 @@
     "boxOffice": "N/A",
     "production": "Warner Bros. Pictures",
     "website": "N/A",
-    "response": "True"
+    "response": true
   }
 ]

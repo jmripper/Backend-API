@@ -9,7 +9,7 @@ This project was to build a custom JSON API from scratch using Node.js, Express 
 - Node.js
 - Heroku
 
-## Sample Object
+## Sample Movie Object
 Sample dog object from the API:
 ```
   {
@@ -57,4 +57,19 @@ Sample dog object from the API:
     "__v": 0
   }
   ```
-  
+  ## API RESTful Paths
+
+| Method | Path | Description | Additional Information |
+|:-------:|:------:| ------------| ----|
+| **POST** | `/create` | Create a new movie object |  |
+| **GET** | `/` | Get/find all movies within database |  |
+| **GET** | `/:title` | Find a movie by its title | title: String. |
+| **GET*** | `/:id` | Find movies by id | id: Number. |
+| **GET** | `/:rated` | Find a movie by it's rating | rated: String. |
+| **REMOVE** | `/remove` | Remove a movie by it's id | id: Number. |
+| **PUT** | `/update` | Update a movie's year | year: String |
+
+
+## Deployed Heroku URL
+
+https://movie-express-custom-api.herokuapp.com/

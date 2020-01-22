@@ -5,6 +5,8 @@ const cors = require("cors")
 const app = express()
 
 app.use(cors());
+app.use(bodyParser.urlencoded({extended: true}))
+app.use(bodyParser.json());
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
@@ -12,7 +14,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(bodyParser.json());
 
 //use routes file
 app.use('/', routes);

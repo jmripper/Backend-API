@@ -1,4 +1,4 @@
-# Express Backend API
+# JSON Backend API
 
 This project was to build a custom JSON API from scratch using Node.js, Express and Mongoose, then deploy it using Heroku and MongoDB Atlas. This API is built from a JSON file with data pulled form the Open Movie Database API of random movies choices.
 
@@ -61,12 +61,12 @@ Sample dog object from the API:
 
 | Method | Path | Description | Additional Information |
 |:-------:|:------:| ------------| ----|
-| **POST** | `/create` | Create a new movie object |  |
 | **GET** | `/` | Get/find all movies within database |  |
 | **GET** | `/:title` | Find a movie by its title | title: String. |
 | **GET*** | `/:id` | Find movies by id | id: Number. |
 | **GET** | `/:rated` | Find a movie by it's rating | rated: String. |
-| **REMOVE** | `/remove` | Remove a movie by it's id | id: Number. |
+| **POST** | `/create` | Create a new movie object |  |
+| **DELETE** | `/delete/:id` | Remove a movie by it's id | id: Number. |
 | **PUT** | `/update` | Update a movie's year | year: String |
 
 
